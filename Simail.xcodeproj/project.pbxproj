@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D285D0481B6D29CF00E90845 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D285D0471B6D29CF00E90845 /* AppDelegate.swift */; };
+		D285D04A1B6D29CF00E90845 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D285D0491B6D29CF00E90845 /* Images.xcassets */; };
+		D285D04D1B6D29CF00E90845 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D285D04B1B6D29CF00E90845 /* MainMenu.xib */; };
+		D285D0591B6D29CF00E90845 /* SimailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D285D0581B6D29CF00E90845 /* SimailTests.swift */; };
+		D285D0641B6D333600E90845 /* SimailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D285D0621B6D333600E90845 /* SimailViewController.swift */; };
+		D285D0651B6D333600E90845 /* SimailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D285D0631B6D333600E90845 /* SimailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D285D0531B6D29CF00E90845 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D285D03A1B6D29CE00E90845 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D285D0411B6D29CF00E90845;
+			remoteInfo = Simail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D285D0421B6D29CF00E90845 /* Simail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D285D0461B6D29CF00E90845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D285D0471B6D29CF00E90845 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D285D0491B6D29CF00E90845 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D285D04C1B6D29CF00E90845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D285D0521B6D29CF00E90845 /* SimailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D285D0571B6D29CF00E90845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D285D0581B6D29CF00E90845 /* SimailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimailTests.swift; sourceTree = "<group>"; };
+		D285D0621B6D333600E90845 /* SimailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimailViewController.swift; sourceTree = "<group>"; };
+		D285D0631B6D333600E90845 /* SimailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D285D03F1B6D29CF00E90845 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D285D04F1B6D29CF00E90845 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D285D0391B6D29CE00E90845 = {
+			isa = PBXGroup;
+			children = (
+				D285D0441B6D29CF00E90845 /* Simail */,
+				D285D0551B6D29CF00E90845 /* SimailTests */,
+				D285D0431B6D29CF00E90845 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D285D0431B6D29CF00E90845 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D285D0421B6D29CF00E90845 /* Simail.app */,
+				D285D0521B6D29CF00E90845 /* SimailTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D285D0441B6D29CF00E90845 /* Simail */ = {
+			isa = PBXGroup;
+			children = (
+				D285D0471B6D29CF00E90845 /* AppDelegate.swift */,
+				D285D0621B6D333600E90845 /* SimailViewController.swift */,
+				D285D0631B6D333600E90845 /* SimailViewController.xib */,
+				D285D0491B6D29CF00E90845 /* Images.xcassets */,
+				D285D04B1B6D29CF00E90845 /* MainMenu.xib */,
+				D285D0451B6D29CF00E90845 /* Supporting Files */,
+			);
+			path = Simail;
+			sourceTree = "<group>";
+		};
+		D285D0451B6D29CF00E90845 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D285D0461B6D29CF00E90845 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D285D0551B6D29CF00E90845 /* SimailTests */ = {
+			isa = PBXGroup;
+			children = (
+				D285D0581B6D29CF00E90845 /* SimailTests.swift */,
+				D285D0561B6D29CF00E90845 /* Supporting Files */,
+			);
+			path = SimailTests;
+			sourceTree = "<group>";
+		};
+		D285D0561B6D29CF00E90845 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D285D0571B6D29CF00E90845 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D285D0411B6D29CF00E90845 /* Simail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D285D05C1B6D29CF00E90845 /* Build configuration list for PBXNativeTarget "Simail" */;
+			buildPhases = (
+				D285D03E1B6D29CF00E90845 /* Sources */,
+				D285D03F1B6D29CF00E90845 /* Frameworks */,
+				D285D0401B6D29CF00E90845 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Simail;
+			productName = Simail;
+			productReference = D285D0421B6D29CF00E90845 /* Simail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D285D0511B6D29CF00E90845 /* SimailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D285D05F1B6D29CF00E90845 /* Build configuration list for PBXNativeTarget "SimailTests" */;
+			buildPhases = (
+				D285D04E1B6D29CF00E90845 /* Sources */,
+				D285D04F1B6D29CF00E90845 /* Frameworks */,
+				D285D0501B6D29CF00E90845 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D285D0541B6D29CF00E90845 /* PBXTargetDependency */,
+			);
+			name = SimailTests;
+			productName = SimailTests;
+			productReference = D285D0521B6D29CF00E90845 /* SimailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D285D03A1B6D29CE00E90845 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Russ;
+				TargetAttributes = {
+					D285D0411B6D29CF00E90845 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D285D0511B6D29CF00E90845 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D285D0411B6D29CF00E90845;
+					};
+				};
+			};
+			buildConfigurationList = D285D03D1B6D29CE00E90845 /* Build configuration list for PBXProject "Simail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D285D0391B6D29CE00E90845;
+			productRefGroup = D285D0431B6D29CF00E90845 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D285D0411B6D29CF00E90845 /* Simail */,
+				D285D0511B6D29CF00E90845 /* SimailTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D285D0401B6D29CF00E90845 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D285D04A1B6D29CF00E90845 /* Images.xcassets in Resources */,
+				D285D0651B6D333600E90845 /* SimailViewController.xib in Resources */,
+				D285D04D1B6D29CF00E90845 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D285D0501B6D29CF00E90845 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D285D03E1B6D29CF00E90845 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D285D0481B6D29CF00E90845 /* AppDelegate.swift in Sources */,
+				D285D0641B6D333600E90845 /* SimailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D285D04E1B6D29CF00E90845 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D285D0591B6D29CF00E90845 /* SimailTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D285D0541B6D29CF00E90845 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D285D0411B6D29CF00E90845 /* Simail */;
+			targetProxy = D285D0531B6D29CF00E90845 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D285D04B1B6D29CF00E90845 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D285D04C1B6D29CF00E90845 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D285D05A1B6D29CF00E90845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D285D05B1B6D29CF00E90845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D285D05D1B6D29CF00E90845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Simail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D285D05E1B6D29CF00E90845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Simail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D285D0601B6D29CF00E90845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simail.app/Contents/MacOS/Simail";
+			};
+			name = Debug;
+		};
+		D285D0611B6D29CF00E90845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simail.app/Contents/MacOS/Simail";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D285D03D1B6D29CE00E90845 /* Build configuration list for PBXProject "Simail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D285D05A1B6D29CF00E90845 /* Debug */,
+				D285D05B1B6D29CF00E90845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D285D05C1B6D29CF00E90845 /* Build configuration list for PBXNativeTarget "Simail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D285D05D1B6D29CF00E90845 /* Debug */,
+				D285D05E1B6D29CF00E90845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D285D05F1B6D29CF00E90845 /* Build configuration list for PBXNativeTarget "SimailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D285D0601B6D29CF00E90845 /* Debug */,
+				D285D0611B6D29CF00E90845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D285D03A1B6D29CE00E90845 /* Project object */;
+}
