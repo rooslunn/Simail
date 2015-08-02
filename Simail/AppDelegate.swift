@@ -15,6 +15,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     let statusItem = NSStatusBar.systemStatusBar().statusItemWithLength(-2)
     let popover = NSPopover()
+    var eventMonitor: EventMonitor?
     
     func applicationDidFinishLaunching(notification: NSNotification) {
         if let button = statusItem.button {
@@ -23,6 +24,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
         
         popover.contentViewController = SimailViewController(nibName: "SimailViewController", bundle: nil)
+        
+        eventMonitor = EventMonitor(mask: .LeftMouseDownMask | .RightMouseDownMask) { [unowned self] event in
+            if self.popover.shown {
+                self.closePopover(event)
+            }
+        }
+        eventMonitor?.start()
     }
     
     func applicationWillTerminate(aNotification: NSNotification) {
@@ -33,10 +41,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         if let button = statusItem.button {
             popover.showRelativeToRect(button.bounds, ofView: button, preferredEdge: NSMinYEdge)
         }
+        eventMonitor?.start()
     }
     
     func closePopover(sender: AnyObject?) {
         popover.performClose(sender)
+        eventMonitor?.stop()
     }
     
     func togglePopover(sender: AnyObject?) {

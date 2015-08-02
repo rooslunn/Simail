@@ -14,6 +14,7 @@
 		D285D0641B6D333600E90845 /* SimailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D285D0621B6D333600E90845 /* SimailViewController.swift */; };
 		D285D0651B6D333600E90845 /* SimailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D285D0631B6D333600E90845 /* SimailViewController.xib */; };
 		D2D62E941B6E1F3A004CE20F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D62E931B6E1F3A004CE20F /* Message.swift */; };
+		D2D62E961B6E6B13004CE20F /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D62E951B6E6B13004CE20F /* EventMonitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		D285D0621B6D333600E90845 /* SimailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimailViewController.swift; sourceTree = "<group>"; };
 		D285D0631B6D333600E90845 /* SimailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimailViewController.xib; sourceTree = "<group>"; };
 		D2D62E931B6E1F3A004CE20F /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		D2D62E951B6E6B13004CE20F /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				D2D62E921B6E1F17004CE20F /* Model */,
 				D285D0471B6D29CF00E90845 /* AppDelegate.swift */,
+				D2D62E951B6E6B13004CE20F /* EventMonitor.swift */,
 				D285D0621B6D333600E90845 /* SimailViewController.swift */,
 				D285D0631B6D333600E90845 /* SimailViewController.xib */,
 				D285D0491B6D29CF00E90845 /* Images.xcassets */,
@@ -226,6 +229,7 @@
 				D2D62E941B6E1F3A004CE20F /* Message.swift in Sources */,
 				D285D0481B6D29CF00E90845 /* AppDelegate.swift in Sources */,
 				D285D0641B6D333600E90845 /* SimailViewController.swift in Sources */,
+				D2D62E961B6E6B13004CE20F /* EventMonitor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
