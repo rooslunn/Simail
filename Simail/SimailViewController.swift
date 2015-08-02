@@ -10,9 +10,40 @@ import Cocoa
 
 class SimailViewController: NSViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do view setup here.
+    @IBOutlet var textLabel: NSTextField!
+    
+    let messages = Message.all
+    
+    var currentMessageIndex: Int = 0 {
+        didSet {
+            updateMessage()
+        }
     }
     
+    override func viewWillAppear() {
+        super.viewWillAppear()
+        
+        currentMessageIndex = 0
+    }
+    
+    func updateMessage() {
+        textLabel.stringValue = toString(messages[currentMessageIndex])
+    }
+}
+
+// MARK: Actions
+
+extension SimailViewController {
+    
+    @IBAction func goLeft(sender: NSButton) {
+        currentMessageIndex = (currentMessageIndex - 1 + messages.count) % messages.count
+    }
+    
+    @IBAction func goRight(sender: NSButton) {
+        currentMessageIndex = (currentMessageIndex + 1) % messages.count
+    }
+    
+    @IBAction func quit(sender: NSButton) {
+        NSApplication.sharedApplication().terminate(sender)
+    }
 }

@@ -13,6 +13,7 @@
 		D285D0591B6D29CF00E90845 /* SimailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D285D0581B6D29CF00E90845 /* SimailTests.swift */; };
 		D285D0641B6D333600E90845 /* SimailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D285D0621B6D333600E90845 /* SimailViewController.swift */; };
 		D285D0651B6D333600E90845 /* SimailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D285D0631B6D333600E90845 /* SimailViewController.xib */; };
+		D2D62E941B6E1F3A004CE20F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D62E931B6E1F3A004CE20F /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		D285D0581B6D29CF00E90845 /* SimailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimailTests.swift; sourceTree = "<group>"; };
 		D285D0621B6D333600E90845 /* SimailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimailViewController.swift; sourceTree = "<group>"; };
 		D285D0631B6D333600E90845 /* SimailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimailViewController.xib; sourceTree = "<group>"; };
+		D2D62E931B6E1F3A004CE20F /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		D285D0441B6D29CF00E90845 /* Simail */ = {
 			isa = PBXGroup;
 			children = (
+				D2D62E921B6E1F17004CE20F /* Model */,
 				D285D0471B6D29CF00E90845 /* AppDelegate.swift */,
 				D285D0621B6D333600E90845 /* SimailViewController.swift */,
 				D285D0631B6D333600E90845 /* SimailViewController.xib */,
@@ -110,6 +113,14 @@
 				D285D0571B6D29CF00E90845 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2D62E921B6E1F17004CE20F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D2D62E931B6E1F3A004CE20F /* Message.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2D62E941B6E1F3A004CE20F /* Message.swift in Sources */,
 				D285D0481B6D29CF00E90845 /* AppDelegate.swift in Sources */,
 				D285D0641B6D333600E90845 /* SimailViewController.swift in Sources */,
 			);
@@ -404,6 +416,7 @@
 				D285D05E1B6D29CF00E90845 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D285D05F1B6D29CF00E90845 /* Build configuration list for PBXNativeTarget "SimailTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +425,7 @@
 				D285D0611B6D29CF00E90845 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
